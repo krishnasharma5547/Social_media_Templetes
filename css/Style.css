@@ -1,0 +1,188 @@
+header {
+    background-color: rgb(33, 45, 148);
+    min-height: 180px;
+    color: white;
+    overflow: hidden;
+}
+
+header .container {
+    background-color: rgb(33, 45, 148);
+
+}
+
+header form {
+    float: right;
+    margin-top: 25px;
+}
+
+header .logo {
+    float: left;
+}
+
+#navbar-bg {
+    background-color: rgb(102, 131, 161) !important;
+}
+
+.navbar #nav-text {
+    margin-left: 50px;
+}
+
+.navbar .active {
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+#wall {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#wall-button {
+    margin-top: 10px;
+}
+
+#wallbutton-group {
+    float: right;
+    margin-top: 10px;
+}
+
+.card-header {
+    background-color: rgb(102, 131, 161);
+}
+
+.bubble {
+    border: 2px solid #6683A1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#my-friend {
+    padding-right: 20px;
+
+}
+
+.card {
+    overflow: hidden;
+    margin: 10px;
+}
+
+.user1 {
+    margin-top: 20px;
+}
+
+.list-friends {
+    list-style-type: none;
+}
+
+.list-friends li {
+    float: left;
+    padding: 15px;
+}
+
+.friend-img {
+    width: 60px;
+    height: 60px;
+}
+
+#my-friend-button {
+    margin-left: 50px;
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(102, 131, 161);
+}
+
+footer .row .col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+}
+
+footer li {
+    float: left;
+    padding-right: 20px;
+}
+
+footer li a {
+    color: white;
+}
+
+footer ul li a:hover {
+    color: gold;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 8px 15px
+}
+
+/* Members page styling code */
+
+section .inner-row {
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+
+section .inner-row img {
+    padding: 3px;
+    width: 200px;
+    height: 230px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+section .inner-row button {
+    margin-top: 40px;
+}
+
+.page-header {
+    margin: 30px;
+}
+
+.view-group-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#detail-row {
+    display: flex;
+}
+
+.text-center1 {
+    margin-left: 45px;
+}
+
+/* Code for Photo page */
+
+.photos ul li {
+    margin-right: 20px;
+    margin-top: 20px;
+    list-style: none;
+    float: left;
+}
+
+.photos img {
+    width: 200px;
+    height: 200px;
+}
