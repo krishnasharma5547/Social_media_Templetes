@@ -186,3 +186,10 @@ section .inner-row button {
     width: 200px;
     height: 200px;
 }
+
+/*
+.carousel{
+    width:350px !important;
+    height: 300px !important;
+    overflow: hidden;
+} */
