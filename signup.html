@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+
+        .background {
+            /*background-image: url("../images/back.jpg");*/
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .sign_in_form form {
+            margin-top: 50px;
+        }
+
+         body {
+            overflow: auto;
+        }
+
+
+        /* body{
+            background-image: url("../images/home5.jpg");
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            backdrop-filter: blur(1px);
+        } */
+
+        .background {
+            background-image: url("images/back.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+
+        .login_form {
+            min-height: 80vh;
+        }
+
+        .login_form form {
+            margin-top: 10px;
+        }
+
+        * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+/* html {
+    overflow-y: scroll;
+} */
+
+/* body { position: absolute; } */
+
+#brand_name {
+    color: white;
+    border-top: 2px solid white;
+    padding: 10px;
+    border-radius: 7px;
+    border-left: 2px solid white;
+    margin-top: 35;
+}
+
+
+.mynav-item {
+    width: 50px;
+    color: white;
+    font-size: large;
+    /* border-bottom: 2px solid white; */
+    padding: 10px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.mynav-item:hover {
+    margin-top: 30px;
+    font-weight: bolder;
+    border-top: 2px solid white;
+    border-radius: 7px;
+    border-right: 1px solid white;
+
+}
+
+.navbar-toggler {
+    margin-right: 110px;
+}
+
+.signout {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    color: white;
+    border: 1px solid gold;
+    border-radius: 10px;
+    font-size: large;
+
+}
+
+.container-md li .signout:hover {
+    color: white;
+    font-weight: bolder;
+    border: 2px solid gold;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.sec_heading {
+    border-bottom: 2px solid white;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.jumb h1:nth-child(1):hover {
+    font-size: 60px;
+    transition: all 0.5s;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    /* margin: 10px; */
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+footer {
+
+    /* margin: 50px; */
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 0px 0px 20px;
+}
+
+.footer_element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 0px 0px 20px; */
+}
+
+footer ul {
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+    color: white;
+}
+
+footer ul li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    background-color: #686363;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer ul li:nth-child(1):hover {
+    background-color: #3b5999;
+}
+
+footer ul li:nth-child(2):hover {
+    background-color: #55acee;
+}
+
+footer ul li:nth-child(3):hover {
+    background-color: #e4405f;
+}
+
+footer ul li:nth-child(4):hover {
+    background-color: #0077B5;
+}
+
+footer ul li:nth-child(5):hover {
+    background-color: #3aaf85;
+}
+
+
+/*sign up or login css*/
+.welcome_login {
+    background-color: #3fc3d4;
+    color: white;
+}
+
+.login_form {
+    position: relative;
+    background-color: #3f5160;
+    color: white;
+    height: auto;
+}
+
+.instruction_login {
+    font-size: 20px;
+}
+
+.form-div {
+    margin-top: 3%;
+    box-shadow: 5px 10px 10px 10px;
+}
+
+#signup {
+    color: yellow;
+}
+
+#signup:hover {
+    color: violet;
+
+}
+
+#login {
+    color: yellow;
+}
+
+#login:hover {
+    color: violet;
+}
+
+.message {
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 23px;
+    text-align: center;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    width: 75%;
+}
+
+/* Responsive */
+
+@media (max-width: 575.98px) {
+
+    footer ul li {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        background-color: #686363;
+        border-radius: 50%;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .login_form {
+        background-color: #3f5160;
+        /* display: flex; */
+        color: white;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: block;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+    .welcome_login {
+        font-size: 35px;
+    }
+
+    .instruction_login {
+        font-size: 15px;
+    }
+
+    .form-div {
+        margin-top: 0;
+        box-shadow: 5px 10px 10px 10px;
+    }
+
+}
+    </style>
+    <title>Sign up: MyNotes</title>
+</head>
+<body class="background">
+
+
+<div class="d-flex-align-item-center justify-content-center">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <!-- container for form and welcome screen-->
+        <div class="col-md-8 form-div">
+            <div class="row">
+                <div class="col-md-7 text-center display-4 py-4 welcome_login">
+
+                    Welcome to Dobbel
+
+                    <div style="text-align: justify; font-size: 20px;">
+                        <ul class="px-4 my-4">
+                            <li class="py-4">Please Login or SignUp to continue. <br></li>
+                            <li>If you already have account please login</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-5 d-flex align-items-center justify-content-center login_form sign_in_form py-4">
+                    <form action="index.html" class="py-2">
+                        <div class="form-group">
+                            <label for="first_name">First Name</label>
+                            <input class="form-control" id="first_name" type="text">
+                        </div>
+
+                        <div class="form-group mx-1">
+                            <label for="Last name">Last Name</label>
+                            <input class="form-control" id="Last name" type="text">
+                        </div>
+                        <div class="form-group my-4">
+                            <label for="email">Email address</label>
+                            <input aria-describedby="emailHelp" class="form-control" id="email"
+                                   type="email">
+                            <small class="form-text  text-white" id="emailHelp">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Password1">Password</label>
+                            <input class="form-control" id="Password1" type="password">
+                        </div>
+                        <div class="form-group mx-1">
+                            <label for="Password2">Confirm Password</label>
+                            <input class="form-control" id="Password2" type="password">
+                        </div>
+
+                        <div class="form-group form-check">
+                        </div>
+                        <button class="btn btn-info btn-block my-4" type="submit">Sign up</button>
+                        <div>already have a account? <a href="index.html" id="login"> login</a></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2"></div>
+</div>
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
