@@ -132,7 +132,8 @@ footer ul li a:hover {
     color: gold;
     border: 1px solid white;
     text-decoration: none;
-    padding: 8px 15px
+    padding: 8px 15px;
+    border-radius:10px;
 }
 
 /* Members page styling code */
@@ -145,8 +146,8 @@ section .inner-row {
 
 section .inner-row img {
     padding: 3px;
-    width: 200px;
-    height: 230px;
+    width: 170px;
+    height: 200px;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -193,3 +194,8 @@ section .inner-row button {
     height: 300px !important;
     overflow: hidden;
 } */
+nav ul li a:hover{
+text-decoration: underline;
+    color: skyblue; !important;
+    font-weight: bold;
+}
