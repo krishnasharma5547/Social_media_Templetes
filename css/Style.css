@@ -198,4 +198,5 @@ nav ul li a:hover{
 text-decoration: underline;
     color: skyblue; !important;
     font-weight: bold;
+    border-bottom: 1px solid white;!important;
 }
